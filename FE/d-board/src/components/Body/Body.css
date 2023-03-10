@@ -1,0 +1,17 @@
+.body-page{
+    width: 79%;
+    height: 747px;
+    left: 20%;
+    top: 0px;
+    float: left;
+
+}
+.list-brand{
+    width: 98%;
+    height: 660px;
+    left: 10px;
+    top: 10px;
+    float: right;
+    background: #FFFFFF;
+
+}

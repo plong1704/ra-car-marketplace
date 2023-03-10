@@ -1,0 +1,15 @@
+.header-page{
+    width: 80%;
+    height: 60px;
+    left: 20%;
+    top: 0px;
+    float: left;
+    background: #FFFFFF;
+}
+.headers{
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 10px;
+    float: right;
+}
