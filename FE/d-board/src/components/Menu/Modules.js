@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { FaCalendar } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 class Modules extends Component {
     render() {
         return (
             <div>
                 <li>
-                    <a className="" href="/dashboard/modules">
+                    <Link className="" to="/dashboard/modules">
                         <button
                             className="text-xs py-3 rounded-lg text-white hover:bg-white/10 w-full flex gap-4 px-4 capitalize"
                             type="button">
@@ -14,7 +15,7 @@ class Modules extends Component {
                                 Modules
                             </p>
                         </button>
-                    </a>
+                    </Link>
                 </li>
             </div>
         );

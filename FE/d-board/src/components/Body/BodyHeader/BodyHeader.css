@@ -21,12 +21,11 @@
     top: 10px;
     float: left;
 }
-
 .btn-add{
-    width: 30%;
-    height: 0px;
-    left: 0px;
-    top: 0px;
-    float: right;
-    display: block;
+    margin-left:80%;
+    margin-right: auto;
+    display:block;
+    margin-top: 1%;
+    margin-bottom:0%;
+
 }

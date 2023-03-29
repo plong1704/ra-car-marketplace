@@ -3,7 +3,7 @@
     height: 60px;
     left: 20%;
     top: 0px;
-    float: left;
+    float: right;
     background: #FFFFFF;
 }
 .headers{
@@ -13,3 +13,4 @@
     top: 10px;
     float: right;
 }
+

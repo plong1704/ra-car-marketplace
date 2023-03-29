@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { FaCalendar } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
 class Notification extends Component {
     render() {
         return (
             <div>
                 <li>
-                    <a className="" href="/dashboard/notifactions">
+                    <Link className="" to="/dashboard/notifactions">
                         <button
                             className="text-xs py-3 rounded-lg text-white hover:bg-white/10 w-full flex gap-4 px-4 capitalize"
                             type="button"
@@ -15,7 +17,7 @@ class Notification extends Component {
                                 Notification
                             </p>
                         </button>
-                    </a>
+                    </Link>
                 </li>
             </div>
         );

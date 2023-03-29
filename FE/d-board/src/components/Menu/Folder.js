@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { FaFolder, FaCaretDown, FaCaretUp } from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 
 function Folder() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
             <li>
-                <a className="" href="/dashboard/folder">
+                <Link className="" to="/dashboard/folder">
                     <button onClick={() => setIsOpen((prev) => !prev)}
                         className=" text-xs py-3 rounded-lg text-white hover:bg-white/10 w-full flex gap-4 px-4 "
                         type="button"
@@ -23,7 +24,7 @@ function Folder() {
                         )
                         }
                     </button>
-                </a>
+                </Link>
             </li>
         </div>
     );
