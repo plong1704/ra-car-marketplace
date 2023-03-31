@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class ProductsItem extends Component {
     render() {
@@ -25,9 +26,9 @@ class ProductsItem extends Component {
                     <th>{product.description}</th>
                     <th>{product.carbrandid}</th>
                     <th>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+                        <Link to ='/dashboard/carbrand/edit' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
                             Edit
-                        </button>
+                        </Link>
                     </th>
                     <th>
                         <button className='bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>

@@ -6,9 +6,9 @@ class CarBand extends Component {
         return (
             <div>
                 <li>
-                    <Link className="active" to='/dashboard/carband'>
+                    <Link className="active" to='/dashboard/carbrand'>
                         <div
-                            className="text-xs py-3 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 w-full flex gap-4 px-4 capitalize"
+                            className="text-xs py-3 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg w-full flex gap-4 px-4 capitalize"
                             type="button"
                             style={{ position: "relative", overflow: "hidden" }}
                         >
